@@ -1,11 +1,15 @@
 function capital_indexes(text) {
 
-    for (let i = 0; i <= text.length; i++) {
+    for (let i = 0; i < text.length; i++) {
 
-        console.log(text[i])
+        const capitalLetter = text[i];
+
+        if (capitalLetter === capitalLetter.toString().toUpperCase()) {
+            return `the first capital letter is: ${capitalLetter} and the position is: ${i}`;
+        }
 
     }
 
 }
 
-capital_indexes("HeLlO");
+console.log(capital_indexes("HeLlO"));
