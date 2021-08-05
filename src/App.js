@@ -1,10 +1,10 @@
+import PokeApi from './components/poke-api/poke-api.component';
 import './App.css';
-import DisplayData from './components/display-data.component';
 
 function App() {
   return (
     <div className="App">
-      <DisplayData />
+      <PokeApi />
     </div>
   );
 }
