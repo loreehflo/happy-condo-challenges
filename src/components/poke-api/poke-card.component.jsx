@@ -5,7 +5,7 @@ function PokeCard(props) {
 
         <div className='cards'>
             <div className='pokemonImage'>
-                <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/${props.number}.png`} alt={props.name} />
+                <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${props.number}.png`} alt={props.name} />
             </div>
             <div className='pokemonName'>{props.name}</div>
             <div className='pokemonNumber'>{props.number}</div>
