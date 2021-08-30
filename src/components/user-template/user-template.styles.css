@@ -14,9 +14,9 @@ body {
 }
 
 .photo-w {
-  border: palevioletred 5px solid;
+  border: deeppink 5px solid;
   border-radius: 5px;
-  background-color: palevioletred;
+  background-color: deeppink;
 }
 
 .fullName {
