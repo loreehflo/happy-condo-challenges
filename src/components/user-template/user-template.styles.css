@@ -1,0 +1,26 @@
+body {
+  padding-top: 25px;
+}
+
+.col-4 {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.photo-m {
+  border: deepskyblue 5px solid;
+  border-radius: 5px;
+  background-color: deepskyblue;
+}
+
+.photo-w {
+  border: palevioletred 5px solid;
+  border-radius: 5px;
+  background-color: palevioletred;
+}
+
+.fullName {
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}

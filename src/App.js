@@ -1,10 +1,10 @@
 import './App.css';
-import FeatureTitle from './components/feature-title/feature-title.component';
+import UserTemplate from './components/user-template/user-template.component';
 
 function App() {
   return (
     <div className="App">
-      <FeatureTitle />
+      <UserTemplate />
     </div>
   );
 }
